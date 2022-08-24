@@ -102,9 +102,15 @@ section .details span {
 }
 
 .uploaded-area {
-    max-height: 150px;
+    max-height: 230px;
     overflow-y: scroll;
 }
+
+.uploaded-area.onprogress {
+    max-height: 150px;
+    font-size: smaller;
+}
+
 .uploaded-area::-webkit-scrollbar {
     width: 0;
 }
